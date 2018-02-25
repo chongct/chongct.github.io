@@ -87,3 +87,32 @@ nav {
   font-size: 2em;
   margin: 10px;
 }
+
+/* responsive design */
+@media only screen and (max-width: 425px) {
+  .nav-link {
+    font-size: 0.8em;
+  }
+
+  .name {
+    font-size: 2.5em;
+  }
+
+  .description {
+    font-size: 2em;
+  }
+
+  .projects p, .project-img-div {
+    text-align: center;
+  }
+
+  .project-img {
+    width: 90%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .footer p {
+    font-size: 0.8em;
+  }
+}
