@@ -1,0 +1,89 @@
+.nav-link {
+  font-family: "Londrina Solid", sans-serif;
+  font-size: 1.1em;
+  color: #FFCCBC;
+}
+
+nav {
+  background-color: #77A6F7;
+}
+
+.nav-link.active {
+  background-color: #FFFFFF !important;
+  color: #77A6F7 !important;
+}
+
+.nav-link:hover {
+  background-color: #FFFFFF;
+  color: #77A6F7;
+}
+
+.header {
+  background-color: #77A6F7;
+  height: 100vh;
+  width: 100vw;
+}
+
+.name, .description {
+  font-family: "Londrina Solid", sans-serif;
+  color: #FFFFFF;
+}
+
+.name {
+  font-size: 5em;
+  letter-spacing: 0.1em;
+}
+
+.description {
+  font-size: 2.5em;
+}
+
+.name span, .description span {
+  animation: changeText 1s;
+  display: inline-block;
+  /* -webkit-animation-fill-mode: forwards; */
+}
+
+@keyframes changeText {
+  20% {font-family: "Londrina Shadow", sans-serif;}
+  80% {font-family: "Londrina Shadow", sans-serif;}
+}
+
+.container {
+  font-family:"Roboto", sans-serif;
+  color: #00887A;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.badge {
+  background-color: #D3E3FC;
+  color: #00887A;
+}
+
+.project-img {
+  width: 35vw;
+  height: auto;
+}
+
+.projects {
+  margin: 10vh 0;
+}
+
+.footer {
+  background-color: #77A6F7;
+  color: #FFFFFF;
+  padding: 40px 0;
+}
+
+.footer p {
+  font-family:"Roboto", sans-serif;
+}
+
+.icons a {
+  color: #FFFFFF !important;
+  font-size: 2em;
+  margin: 10px;
+}
