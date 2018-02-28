@@ -7,7 +7,7 @@ $(document).ready(() => {
     while (randomChar === " " || !randomChar) {
       var randomInt = Math.round(Math.random() * titleLength);
       var randomChar = array[randomInt];
-      console.log(randomChar);
+      // console.log(randomChar);
     }
 
     array.splice(randomInt, 1, "<span>" + randomChar + "</span>");

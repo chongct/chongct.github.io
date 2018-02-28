@@ -88,6 +88,14 @@ nav {
   margin: 10px;
 }
 
+.about {
+  margin-bottom: 0;
+}
+
+.about-2 {
+  margin-bottom: 35px;
+}
+
 /* responsive design */
 @media only screen and (max-width: 425px) {
   .nav-link {
@@ -114,5 +122,6 @@ nav {
 
   .footer p {
     font-size: 0.8em;
+    text-align: center;
   }
 }
